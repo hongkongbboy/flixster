@@ -43,5 +43,8 @@ Describe any challenges encountered while building the app.
 
 <img src="http://g.recordit.co/FtaHopyMbl.gif" width=250><br>
 
+###BONUS
+<img src="http://g.recordit.co/l3rnn3uAHA.gif" width=500><br>
+
 ### Notes
 Describe any challenges encountered while building the app.
