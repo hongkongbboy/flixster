@@ -34,7 +34,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 
                 self.movies = dataDictionary["results"] as! [[String:Any]]
-                
                 self.tableView.reloadData()
                 // TODO: Get the array of movies
                 // TODO: Store the movies in a property to use elsewhere
@@ -77,7 +76,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         
-        print ("Loading up the details screen")
+
         
         // Find the selected movie
         let cell = sender as! UITableViewCell
